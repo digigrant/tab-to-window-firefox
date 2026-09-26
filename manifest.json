@@ -14,8 +14,8 @@
   "commands": {
     "move-tab-to-window": {
       "suggested_key": {
-        "default": "Ctrl+Shift+Y",
-        "mac": "Command+Shift+Y"
+        "default": "Ctrl+Alt+Y",
+        "mac": "Command+Alt+Y"
       },
       "description": "Move the current tab into a new window"
     }
