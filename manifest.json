@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Tab to Window",
+  "version": "1.0.0",
+  "description": "Move the current tab into a new window with a keyboard shortcut.",
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+  "permissions": ["tabs"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "move-tab-to-window": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "mac": "Command+Shift+Y"
+      },
+      "description": "Move the current tab into a new window"
+    }
+  },
+  "incognito": "spanning",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "tab-to-window@digigrant.local",
+      "strict_min_version": "109.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}
