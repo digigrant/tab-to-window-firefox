@@ -12,8 +12,7 @@ the shortcut.
 - If the source window has only one tab, the shortcut does nothing: moving
   the tab would just recreate an equivalent window, so there's no point.
   (An alternative behavior — move the tab anyway and leave a fresh blank tab
-  behind in the old window — was considered but not shipped; see the
-  background script for the trade-off.)
+  behind in the old window — was considered but not shipped.)
 
 ## Loading it for manual testing
 
