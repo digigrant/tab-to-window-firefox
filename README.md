@@ -4,7 +4,7 @@ A minimal Firefox extension that moves the current tab into its own new
 window with a keyboard shortcut. No toolbar button, no options page — just
 the shortcut.
 
-- Default shortcut: `Ctrl+Shift+Y` (`Command+Shift+Y` on macOS).
+- Default shortcut: `Ctrl+Alt+Y` (`Command+Alt+Y` on macOS).
 - Moves only the active tab, even if other tabs are also selected/highlighted.
 - The new window is a normal browser window (full toolbar/tab strip), sized
   to match the source window, offset slightly so it isn't stacked exactly on
